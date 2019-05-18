@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+body{}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+/* Grid File Project*/
+.column-3{
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+.column-full{
+    width: 100%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+.column-2{
+    width: 50%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+.column-7{
+    width: 70%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+.column-15{
+    width: 15%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+}
+
+
+.bg-aqua{
+    background: #62b9b9;
+    height: 100%;
+}
+.bg-full{background-color: #14edeab0;height: 100%;}
+
+.bg-half{
+    background-color: #f39292;
+    height: 100%;
+}
+
+.bg-tiny{
+    background-color: #ffb806bf;
+    height: 100%;
+}
+
+.bg-big{
+    background-color: #f3ff0a8c;
+    height: 100%;
+}
+
+/* Html Index file */
+
+.Project-link{
+    text-align: center;
+    margin-top: 50px;
+}
+.Project-link li{
+    list-style: none;
+    display: inline;
+}
+.Project-link li a{
+    background: #a04fdc;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 22px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #bdaaaa;
+    border-bottom: 5px solid #b37d7d;
+    transition: all 0.4s ease;
+    /* height: 800px; */
+    display: inline-grid;
+}
+
+.Project-link li a:hover
+{
+    background-color: #5b65a9ad;border-bottom: 5px solid #5b65a9ad;}
+
+
+/* portfolio*/
+.service{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.service-content{
+    background: #ccccccf0;
+    color: #0a0909;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 5px gray;
+}
+.service-content p{
+    font-size: 18px;
+}
+.service-content h2{
+    color: #77603d;font-size: 30px;margin-bottom: 10px;}
+
+.portfolio-section{
+    text-align: center;
+    background: #e4ddd5;
+    padding: 50px;
+    margin-top: 50px;
+}
+.portfolio-section h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #6897ead4;
+}
+.portfolio{
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+}
+.portfolio img{
+    max-width: 100%;
+    display: block;
+}
+ .logo{
+    width: 10%;
+    float: left;
+}
+ .logo img{}
+ nav{
+    width: 90%;
+    float: left;
+    text-align: right;
+}
+ nav ul{}
+ nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+ nav ul li a {
+    color: #8c6b41;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+nav ul li a:hover{
+    background-color: #333;
+    color: #fff;
+}
